@@ -12,3 +12,7 @@ body {
 	margin:0;
 	background: #fafafa;
 }
+
+#flasgger_tagline {
+	float: right;
+}
