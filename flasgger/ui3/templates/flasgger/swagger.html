@@ -1,3 +1,4 @@
+<!--
 <script>
 window.onload = function() {
 
@@ -69,14 +70,14 @@ window.onload = function() {
     {% if not flasgger_config.hide_top_bar -%}
     layout: "StandaloneLayout",
     {%- endif %}
-    
+
     },
     {{ json.dumps(flasgger_config.get('ui_params', {})) | safe }}
     {% if flasgger_config.ui_params_text -%}
     , {{ flasgger_config.ui_params_text | safe }}
     {%- endif %}
     )
-    
+
     )
 
     let auth_config = {{ flasgger_config.get("auth") | safe }};
@@ -90,3 +91,4 @@ window.onload = function() {
     {%- endif %}
 }
 </script>
+-->
