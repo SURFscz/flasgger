@@ -7,6 +7,7 @@ window.onload = function() {
           dom_id: '#swagger-ui',
           validatorUrl: null,
           displayOperationId: true,
+          defaultModelRendering: "model",
           deepLinking: true,
           jsonEditor: true,
           apisSorter: "alpha",
