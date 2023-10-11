@@ -22,6 +22,7 @@ window.onload = function() {
     displayOperationId: true,
     deepLinking: true,
     jsonEditor: true,
+    defaultModelRendering: 'model',
     {% if flasgger_config.doc_expansion -%}
         docExpansion: "{{flasgger_config.doc_expansion | safe }}",
     {%- endif %}
